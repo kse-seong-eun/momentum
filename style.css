@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+*{
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body form { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display:none;
+}
+
+#login-form input { 
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 40px;
+    border-style: none;
+    border-radius: 50px 50px 50px 50px;  
+}
+
+#clock {
+    color:#f9f9f9;
+    font-size: 12vw;
+    font-weight: 100;
+    text-align: center;
+    margin: 60px auto 0px auto;
+}
+
+#greeting {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #00000075;
+    font-size: 18px;
+}
+
+#quote { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 16vh;
+    background-color: #00000075;  
+}
+
+#quote span {
+    text-align: center;
+    line-height:140%;
+    color: #ffffff;
+    width: 170%;
+}
+#quote span:first-child {
+    font-size:16px;
+    font-weight:100;
+    max-width: 65vw;
+}
+
+#quote span:last-child {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 17px;
+}
+
+#todo-form input{
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+    border-style: none;
+    border-radius: 50px 50px 50px 50px;   
+}
+#todo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#todo-list li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: #333333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f9f9f9b1;
+}
+
+#todo-list span {
+    justify-content: space-between;
+}
+
+#todo-list button {
+    list-style: none;
+}
+
+body img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: cen;
+    position: absolute;
+    top: 0px;
+    z-index:  -1;
+}
+
+#weather {
+    display: flex;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #00000075;
+}
